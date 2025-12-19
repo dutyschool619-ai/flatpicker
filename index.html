@@ -113,7 +113,7 @@
         time_24hr: true,
         minuteIncrement: 60,
         minDate: "today",
-        disableMobile: true, // ✅ allows native mobile picker
+        disableMobile: false, // ✅ allows native mobile picker
         onChange: function(selectedDates) {
             if (selectedDates.length) {
                 let minEnd = new Date(selectedDates[0]);
@@ -154,3 +154,4 @@
 
 </body>
 </html>
+
